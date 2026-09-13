@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+
+# never accidentally commit a real copy of anyone's Biome store
+Biome/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
